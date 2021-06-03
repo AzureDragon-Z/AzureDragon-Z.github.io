@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>账号注册</title>
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div id="register">
+        <ul>
+            <li>&nbsp;&nbsp;用户名：<input placeholder="请输入用户名" name="userId"  v-model="userID"></li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;密&nbsp;码：
+                <input type="password" placeholder="请输入密码" name="password"  v-model="psw"></li>
+            <li>再次输入密码：<input type="password" placeholder="请再次输入密码" name="passwordVerify" v-model="againpsw"></li>
+            <li id="btn"><button @click="verify">注册</button></li>
+            <!-- @click="verify" -->
+        </ul>
+    </div>
+    <script src="js/register.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #f3f5f7;
+    width: 1200px;
+    margin: auto;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+#register {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(252, 252, 252);
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+#register ul { 
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;    
+    position: relative;
+}
+
+#register ul li {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+#register ul li input {
+    /* float: right; */
+    width: 325px;
+    height: 45px;
+}
+
+#register ul button{
+    width: 150px;
+    height: 35px;
+    line-height: 25px;
+    color: black;
+    text-align: center;
+    margin-left: 140px;
+    background-color:#8b9092;
+    border: 0px;
+}
+
+

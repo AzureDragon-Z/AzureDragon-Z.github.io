@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+</head>
+
+<body>
+    <div id="login">
+        <h2>请登录</h2>
+        <ul>
+            <li class="login-style">
+                <img src="images/u1.png" alt="该图片不存在" class="login-img">
+                <input type="text" placeholder="输入用户名" v-model="userID" @keyup.enter="getID">
+            </li>
+            <li class="login-style">
+                <img src="images/p1.png" alt="该图片不存在" class="login-img">
+                <input type="password" placeholder="输入密码" v-model="psw">
+            </li>
+            <li class="login-style" id="yanzhengma">
+                <span style="float: left;">验证码：</span>
+                <input type="text" placeholder="输入验证码" v-model="verify1">
+                <a href="javascript:void(0)" @click="next">
+                    <img :src="Image[index]" alt="">
+                </a>
+            </li>
+            <li class="login-style" id="btn">
+                <button @click="verify">登录</button>
+            </li>
+            <li style="height: 50px;margin: 0 auto;">
+                <a href="register.html" id = "register" style="float: left;">注册</a>
+                <a href="#" id = "forgetPsw" style="float: right;">忘记密码</a>
+            </li>
+        </ul>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

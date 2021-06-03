@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #f3f5f7;
+}
+.w {
+    width: 1200px;
+    margin: auto;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+#login {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(252, 252, 252);
+    margin: 0 auto;
+    margin-top: 80px;
+    
+}
+#login h2 {
+    text-align: center;
+    font-weight: normal;
+}
+
+#login ul {
+    
+    width: 400px;
+    
+    margin: 0 auto;
+    margin-top: 40px;
+}
+#login ul .login-style {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+}
+#login ul li {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+#login ul li img {
+    float: left;
+    width: 45px;
+    height: 45px;
+    
+    /* line-height: -20px; */
+}
+
+#login ul li input {
+    float: right;
+    width: 325px;
+    height: 45px;
+}
+
+#login ul #yanzhengma input{
+
+    width: 220px;
+    height: 45px;
+}
+
+#login ul #btn {
+    margin: 0 auto;
+}
+#login ul #btn button{
+    width: 150px;
+    height: 35px;
+    line-height: 25px;
+    color: black;
+    text-align: center;
+    margin-left: 140px;
+    background-color:#08bdfd;
+    border: 0px;
+}
+
+
+#login ul #yanzhengma a img{
+    width: 100px;
+    height: 60px;
+}
+
